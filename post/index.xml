@@ -12,12 +12,21 @@
     
     
     <item>
-      <title>Blog</title>
+      <title>用hugo搭建个人博客</title>
       <link>https://dyfdaf.github.io/post/blog/</link>
       <pubDate>Fri, 26 Jul 2019 06:54:31 +0300</pubDate>
       
       <guid>https://dyfdaf.github.io/post/blog/</guid>
-      <description>本项目是用来干嘛的呢？</description>
+      <description>一. 安装hugo linux： &amp;gt;sudo apt-get install hugo
+windows: 可用scoop安装 在powershell中输入： &amp;gt; iex (new-object net.webclient).downloadstring(&amp;lsquo;https://get.scoop.sh&#39;)
+二.使用hugo创建博客  hugo new site myblog //myblog为项目名,博客里的每个页面存储在myblog/content/post/
+ 三.添加内容  hugo new &amp;hellip;/blog.md //在content目录下执行
+ 四.运行调试  hugo server &amp;ndash;t m10c &amp;ndash;buildDrafts
+ 五.主题下载  https://themes.gohugo.io 主题页面里有下载教程
+ 六.启动博客  hugo server -t m10c &amp;ndash;buildDrafts // m10c为下载的主题
+ 七.发布博客到网络(github)  创建新的repository(名字必须为 用户名.github.io) 关联项目到远端地址: &amp;gt;hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://用户名.github.io/&amp;rdquo; &amp;ndash;buildDrafts  会在项目中生成public文件夹 3. 将public推到repository中:
+cd public
+git init</description>
     </item>
     
   </channel>

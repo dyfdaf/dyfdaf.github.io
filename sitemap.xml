@@ -3,13 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dyfdaf.github.io/post/blog/</loc>
-    <lastmod>2019-07-26T06:54:31+03:00</lastmod>
+    <loc>https://dyfdaf.github.io/</loc>
+    <lastmod>2019-07-26T09:23:39+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dyfdaf.github.io/</loc>
-    <lastmod>2019-07-26T06:54:31+03:00</lastmod>
+    <loc>https://dyfdaf.github.io/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/mdedit/</loc>
+    <lastmod>2019-07-26T09:23:39+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dyfdaf.github.io/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2019-07-26T09:23:39+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17,6 +23,11 @@
     <loc>https://dyfdaf.github.io/post/</loc>
     <lastmod>2019-07-26T06:54:31+03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dyfdaf.github.io/post/blog/</loc>
+    <lastmod>2019-07-26T06:54:31+03:00</lastmod>
   </url>
   
   <url>

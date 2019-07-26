@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>Blog // My New Hugo Site</title>
+    <title>用hugo搭建个人博客 // My New Hugo Site</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.56.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,11 +11,29 @@
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Blog"/>
-<meta name="twitter:description" content="本项目是用来干嘛的呢？"/>
+<meta name="twitter:title" content="用hugo搭建个人博客"/>
+<meta name="twitter:description" content="一. 安装hugo linux： &gt;sudo apt-get install hugo
+windows: 可用scoop安装 在powershell中输入： &gt; iex (new-object net.webclient).downloadstring(&lsquo;https://get.scoop.sh&#39;)
+二.使用hugo创建博客  hugo new site myblog //myblog为项目名,博客里的每个页面存储在myblog/content/post/
+ 三.添加内容  hugo new &hellip;/blog.md //在content目录下执行
+ 四.运行调试  hugo server &ndash;t m10c &ndash;buildDrafts
+ 五.主题下载  https://themes.gohugo.io 主题页面里有下载教程
+ 六.启动博客  hugo server -t m10c &ndash;buildDrafts // m10c为下载的主题
+ 七.发布博客到网络(github)  创建新的repository(名字必须为 用户名.github.io) 关联项目到远端地址: &gt;hugo &ndash;theme=m10c &ndash;baseUrl=&ldquo;https://用户名.github.io/&rdquo; &ndash;buildDrafts  会在项目中生成public文件夹 3. 将public推到repository中:
+cd public
+git init"/>
 
-    <meta property="og:title" content="Blog" />
-<meta property="og:description" content="本项目是用来干嘛的呢？" />
+    <meta property="og:title" content="用hugo搭建个人博客" />
+<meta property="og:description" content="一. 安装hugo linux： &gt;sudo apt-get install hugo
+windows: 可用scoop安装 在powershell中输入： &gt; iex (new-object net.webclient).downloadstring(&lsquo;https://get.scoop.sh&#39;)
+二.使用hugo创建博客  hugo new site myblog //myblog为项目名,博客里的每个页面存储在myblog/content/post/
+ 三.添加内容  hugo new &hellip;/blog.md //在content目录下执行
+ 四.运行调试  hugo server &ndash;t m10c &ndash;buildDrafts
+ 五.主题下载  https://themes.gohugo.io 主题页面里有下载教程
+ 六.启动博客  hugo server -t m10c &ndash;buildDrafts // m10c为下载的主题
+ 七.发布博客到网络(github)  创建新的repository(名字必须为 用户名.github.io) 关联项目到远端地址: &gt;hugo &ndash;theme=m10c &ndash;baseUrl=&ldquo;https://用户名.github.io/&rdquo; &ndash;buildDrafts  会在项目中生成public文件夹 3. 将public推到repository中:
+cd public
+git init" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://dyfdaf.github.io/post/blog/" />
 <meta property="article:published_time" content="2019-07-26T06:54:31+03:00" />
@@ -36,7 +54,7 @@
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Blog</h1>
+      <h1 class ="post-title">用hugo搭建个人博客</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
@@ -54,7 +72,74 @@
         </div></div>
     </header>
     <div class="post-content">
-      <p>本项目是用来干嘛的呢？</p>
+      
+
+<h1 id="一-安装hugo">一. 安装hugo</h1>
+
+<p>linux：
+&gt;sudo apt-get install hugo</p>
+
+<p>windows: 可用<a href="https://scoop.sh">scoop</a>安装
+在powershell中输入：
+&gt; iex (new-object net.webclient).downloadstring(&lsquo;<a href="https://get.scoop.sh'">https://get.scoop.sh'</a>)</p>
+
+<h1 id="二-使用hugo创建博客">二.使用hugo创建博客</h1>
+
+<blockquote>
+<p>hugo new site myblog   //myblog为项目名,博客里的每个页面存储在myblog/content/post/</p>
+</blockquote>
+
+<h1 id="三-添加内容">三.添加内容</h1>
+
+<blockquote>
+<p>hugo new &hellip;/blog.md   //在content目录下执行</p>
+</blockquote>
+
+<h1 id="四-运行调试">四.运行调试</h1>
+
+<blockquote>
+<p>hugo server &ndash;t m10c &ndash;buildDrafts</p>
+</blockquote>
+
+<h1 id="五-主题下载">五.主题下载</h1>
+
+<blockquote>
+<p><a href="https://themes.gohugo.io">https://themes.gohugo.io</a>
+主题页面里有下载教程</p>
+</blockquote>
+
+<h1 id="六-启动博客">六.启动博客</h1>
+
+<blockquote>
+<p>hugo server -t m10c &ndash;buildDrafts              // m10c为下载的主题</p>
+</blockquote>
+
+<h1 id="七-发布博客到网络-github">七.发布博客到网络(github)</h1>
+
+<ol>
+<li>创建新的repository(名字必须为 用户名.github.io)</li>
+<li>关联项目到远端地址:
+&gt;hugo &ndash;theme=m10c &ndash;baseUrl=&ldquo;https://用户名.github.io/&rdquo; &ndash;buildDrafts</li>
+</ol>
+
+<p>会在项目中生成public文件夹
+3. 将public推到repository中:</p>
+
+<p><code>cd public</code></p>
+
+<p><code>git init</code></p>
+
+<p><code>git add .</code></p>
+
+<p><code>git commit -m &quot;my blog&quot;</code></p>
+
+<p><code>git remote add origin https</code></p>
+
+<p><code>git push -u origin master</code></p>
+
+<h1 id="八-查看博客">八.查看博客</h1>
+
+<p>地址为:https://用户名.github.io/</p>
 
     </div>
     <div class="post-footer">
